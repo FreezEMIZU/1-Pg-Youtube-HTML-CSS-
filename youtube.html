@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Youtube Clone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="video.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="youtube.css">
+    <link rel="stylesheet" href="sidebar.css">
+  </head>
+
+  <body>
+    <header class="header">
+
+      <div class="left-sectn">
+        <img class="menu" src="thumbnails/header-hamburger-menu.svg">
+          <a href="https://www.youtube.com/" target="_blank">
+          <img class="logo" src="thumbnails/header-youtube-logo.svg">
+        </a>       
+      </div>
+
+      <div class="mid-sectn">
+        <input class="search-bar" type="text" placeholder="Search">
+        <button class="search-button">
+          <img class="search" src="thumbnails/header-search.svg">
+          <div class="tooltip">Search</div>
+        </button>
+
+        <button class="voice-button">
+          <img class="voice" src="thumbnails/header-voice-search-icon.svg">
+          <div class="tooltip">Search with your voice</div>
+        </button>
+        </div>
+
+      <div class="right-sectn">
+
+        <div class="upload-div">
+          <img class="upload" src="thumbnails/header-upload.svg">
+          <div class="tooltip">Create</div>
+        </div>
+
+        <div class="apps-div">
+          <img class="apps" src="thumbnails/header-youtube-apps.svg">
+          <div class="tooltip">YouTube Apps</div>
+        </div>
+
+        <div class="notifi">
+          <img class="notifi-con" src="thumbnails/header-notifications.svg">
+          <div class="notifi-counter">3</div>
+          <div class="tooltip">Notification</div>
+
+        </div>
+        <a href="https://www.youtube.com/watch?v=G3e-cpL7ofc&t=20065s" target="_blank">
+          <img class="head-thumbnail" src="thumbnails/header-my-channel.jpeg">
+        </a>
+      </div>
+      
+    </header>
+
+    <nav class="sidebar">
+      <div class="sidebar-link">
+        <a href="https://www.youtube.com/" target="_blank">
+         <img src="thumbnails/side-home.svg">
+        </a>
+        <div>Home</div>
+      </div>
+
+      <div class="sidebar-link">
+        <img src="thumbnails/side-explore.svg">
+        <div>Explore</div>
+      </div>
+
+      <div class="sidebar-link">
+        <img src="thumbnails/side-sub.svg">
+        <div>Subscriptions</div>
+      </div>
+
+      <div class="sidebar-link">
+        <img src="thumbnails/side-origi.svg">
+        <div>Originals</div>
+      </div>
+
+      <div class="sidebar-link">
+        <img src="thumbnails/side-music.svg">
+        <div>YouTube Music</div>
+      </div>
+
+      <div class="sidebar-link">
+        <img src="thumbnails/side-library.svg">
+        <div>Library</div>
+      </div>
+    </nav>
+
+<!--pending to fix, css things that happen after you click the link-->
+    <main>
+      <section class="v-grid">
+        <div class="v-preview">
+          <div class="thumbnail-box">
+            <a href="https://www.youtube.com/watch?v=n2RNcPRtAiY" target="_blank">
+              <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
+            </a>
+            <div class="v-time">14&colon;20</div>
+          </div> 
+          <div class="v-descriptn-grid">  
+            <div class="profile-box">
+              <a href="https://www.youtube.com/c/mkbhd" target="_blank">
+                <img class="profile" src="thumbnails/profile-1.jpeg">
+              </a>
+            </div>
+            <div class="v-infor">
+              <a href="https://www.youtube.com/watch?v=n2RNcPRtAiY" target="_blank">
+                <p class="v-title">Talking Tech and AI with Google CEO Sundar Pichai!</p>
+              </a>  
+              <a href="https://www.youtube.com/c/mkbhd" target="_blank">
+                <p class="v-author">Marques Brownlee</p>
+              </a>              
+              <p class="v-stats">3.4M views &middot; 6 months ago</p>
+            </div>
+          </div>
+        </div>
+    
+        <div>
+          <div class="thumbnail-box">
+            <img class="thumbnail" src="thumbnails/thumbnail-2.webp">
+            <div class="v-time">8&colon;22</div>
+          </div>
+          <div class="v-descriptn-grid">
+            <div class="profile-box"><img class="profile" src="thumbnails/profile-2.jpeg"></div>
+            <div>
+              <p class="v-title">Try Not To Laugh Challenge #9</p>
+              <p class="v-author">Markiplier</p>
+              <p class="v-stats">19M views &middot; 4 years ago</p>
+            </div>
+          </div>
+        </div>
+      
+        <div>
+          <div class="thumbnail-box">
+            <img class="thumbnail" src="thumbnails/thumbnail-3.webp">
+            <div class="v-time">9&colon;13</div>
+          </div>
+          <div class="v-descriptn-grid">
+            <div class="profile-box"><img class="profile" src="thumbnails/profile-3.jpeg"></div>
+            <div>
+              <p class="v-title">Crazy Tik Toks Taken Moments Before DISASTER</p>
+              <p class="v-author">SSSniperWolf</p>
+              <p class="v-stats">12M views &middot; 1 year ago</p>
+            </div>
+          </div>
+        </div>
+    
+        <div>
+          <div class="thumbnail-box">
+            <img class="thumbnail" src="thumbnails/thumbnail-4.webp">
+            <div class="v-time">22&colon;09</div>
+          </div>
+          <div class="v-descriptn-grid">
+            <div class="profile-box"><img class="profile" src="thumbnails/profile-4.jpeg"></div>
+            <div>
+              <p class="v-title">The Simplest Math Problem No One Can Solve - Collatz Conjecture</p>
+              <p class="v-author">Veritasium</p>
+              <p class="v-stats">18M views &middot; 4 months ago</p>
+            </div>
+          </div>
+        </div>
+      
+        <div>
+          <div class="thumbnail-box">
+            <img class="thumbnail" src="thumbnails/thumbnail-5.webp">
+            <div class="v-time">11&colon;17</div>
+          </div>
+          <div class="v-descriptn-grid">
+            <div class="profile-box"><img class="profile" src="thumbnails/profile-5.jpeg"></div>
+            <div class="v-infor">
+              <p class="v-title">Kadane's Algorithm to Maximum Sum Subarray Problem</p>
+              <p class="v-author">CS Dojo</p>
+              <p class="v-stats">519K views &middot; 5 years ago</p>
+            </div>
+          </div>
+        </div>
+    
+        <div>
+          <div class="thumbnail-box">
+            <img class="thumbnail" src="thumbnails/thumbnail-6.webp">
+            <div class="v-time">19&colon;59</div>
+          </div>
+          <div class="v-descriptn-grid">
+            <div class="profile-box"><img class="profile" src="thumbnails/profile-6.jpeg"></div>
+            <div>
+              <p class="v-title">Anything You Can Fit In The Circle I&rsquo;ll Pay For</p>
+              <p class="v-author">MrBeast</p>
+              <p class="v-stats">141M views &middot; 1 year ago</p>
+            </div>
+          </div>
+        </div>  
+
+        <div>
+          <div class="thumbnail-box">
+            <img class="thumbnail" src="thumbnails/thumbnail-7.webp">
+            <div class="v-time">10&colon;13</div>
+          </div>
+          <div class="v-descriptn-grid">
+            <div class="profile-box"><img class="profile" src="thumbnails/profile-7.jpeg"></div>
+            <div>
+              <p class="v-title">Why Planes Don&apos;t Fly Over Tibet</p>
+              <p class="v-author">RealLifeLore</p>
+              <p class="v-stats">6.6M views &middot; 1 year ago</p>
+            </div>
+          </div>
+        </div>  
+
+        <div>
+          <div class="thumbnail-box">
+            <img class="thumbnail" src="thumbnails/thumbnail-8.webp">
+            <div class="v-time">7&colon;12</div>
+          </div>
+          <div class="v-descriptn-grid">
+            <div class="profile-box"><img class="profile" src="thumbnails/profile-8.jpeg"></div>
+            <div>
+              <p class="v-title">Inside The World&apos;s Biggest Passenger Plane</p>
+              <p class="v-author">Tech Vision</p>
+              <p class="v-stats">3.7M views &middot; 10 months ago</p>
+            </div>
+          </div>
+        </div>  
+
+        <div>
+          <div class="thumbnail-box">
+            <img class="thumbnail" src="thumbnails/thumbnail-9.webp">
+            <div class="v-time">13&colon;17</div>
+          </div>
+          <div class="v-descriptn-grid">
+            <div class="profile-box"><img class="profile" src="thumbnails/profile-9.jpeg"></div>
+            <div>
+              <p class="v-title">The SECRET to Super Human STRENGTH</p>
+              <p class="v-author">ThenX</p>
+              <p class="v-stats">20M views &middot; 3 years ago</p>
+            </div>
+          </div>
+        </div>  
+
+        <div>
+          <div class="thumbnail-box">
+            <img class="thumbnail" src="thumbnails/thumbnail-10.webp">
+            <div class="v-time">7&colon;53</div>
+          </div>
+          <div class="v-descriptn-grid">
+            <div class="profile-box"><img class="profile" src="thumbnails/profile-10.jpeg"></div>
+            <div>
+              <p class="v-title">How The World&apos;s Largest Cruise Ship Makes 30&comma;000 Meals Every Day</p>
+              <p class="v-author">Business Insider</p>
+              <p class="v-stats">14M views &middot; 1 year ago</p>
+            </div>
+          </div>
+        </div>  
+
+        <div>
+          <div class="thumbnail-box">
+            <img class="thumbnail" src="thumbnails/thumbnail-11.webp">
+            <div class="v-time">4&colon;10</div>
+          </div>
+          <div class="v-descriptn-grid">
+            <div class="profile-box"><img class="profile" src="thumbnails/profile-11.jpeg"></div>
+            <div>
+              <p class="v-title">
+                Dubai&apos;s Crazy Underwater Train and Other Things &num;Only in Dubai</p>
+              <p class="v-author">MrBeast</p>
+              <p class="v-stats">3M views &middot; 1 year ago</p>
+            </div>
+          </div>
+        </div>  
+
+        <div>
+          <div class="thumbnail-box">
+            <img class="thumbnail" src="thumbnails/thumbnail-12.webp">
+            <div class="v-time">4&colon;51</div>
+          </div>
+          <div class="v-descriptn-grid">
+            <div class="profile-box"><img class="profile" src="thumbnails/profile-12.jpeg"></div>
+            <div>
+              <p class="v-title">What would happen if you didn&rsquo;t drink water&quest; &ndash; Mia Nacamulli</p>
+              <p class="v-author">TED&hyphen;Ed</p>
+              <p class="v-stats">12M views &middot; 5 year ago</p>
+            </div>
+          </div>
+        </div>  
+      </section>
+    </main>
+  </body>
+</html>
